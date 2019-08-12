@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "tailwindcss": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "css": "npx tailwind build styles.css -o output.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

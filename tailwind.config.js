@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {},
+    fontFamily: {
+      'title': ['Source Sans Pro', 'sans-serif'],
+      'body': ['Noto Sans', 'Arial', 'sans-serif']
+    }
   },
   variants: {},
   plugins: [

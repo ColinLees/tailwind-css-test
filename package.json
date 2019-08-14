@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "dependencies": {
-    "tailwindcss": "^1.1.1"
-  },
   "devDependencies": {
+    "postcss-nesting": "^7.0.1",
+    "tailwindcss": "^1.1.1",
     "tailwindcss-multi-column": "^1.0.2"
   },
   "scripts": {

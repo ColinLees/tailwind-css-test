@@ -1,5 +1,13 @@
 @tailwind base;
 
-@tailwind components;
+*:focus {
+    outline: #ed8936 solid 2px;
+}
 
+button:focus,
+a:focus {
+    @apply rounded-none;
+}
+
+@tailwind components;
 @tailwind utilities;

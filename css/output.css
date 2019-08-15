@@ -12018,6 +12018,31 @@ a:focus {
   background-image: url("https://picsum.photos/1920/1080");
 }
 
+.email-subscription::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.email-subscription::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.email-subscription:-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.email-subscription::-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.email-subscription::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

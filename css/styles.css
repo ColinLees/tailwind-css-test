@@ -20,3 +20,9 @@ a:focus {
     color: #fff;
     opacity: 1;
 }
+
+.dashed:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+}

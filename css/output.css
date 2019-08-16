@@ -12043,6 +12043,12 @@ a:focus {
   opacity: 1;
 }
 
+.dashed:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

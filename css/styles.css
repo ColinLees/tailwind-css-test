@@ -1,16 +1,16 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *:focus {
-    outline: #ed8936 solid 2px;
+    outline: none!important;
+    box-shadow: 0 0 0 2px #ed8936;
 }
 
 button:focus,
 a:focus {
     @apply rounded-none;
 }
-
-@tailwind components;
-@tailwind utilities;
 
 .hero-image {
     background-image: url("https://picsum.photos/1920/1080");

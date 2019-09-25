@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.html",
   "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "nunjucks-cli": "^1.0.0",
     "postcss-nesting": "^7.0.1",
     "tailwindcss": "^1.1.1",
     "tailwindcss-multi-column": "^1.0.2"
   },
   "scripts": {
-    "css": "npx tailwind build css/styles.css -o css/output.css"
+    "css": "npx tailwind build css/styles.css -o css/output.css",
+    "nunjucks": "npx nunjucks *.html -p src -o dist",
+    "nunjucks:watch": "npx nunjucks *.html -w -p src -o dist"
   },
   "author": "",
   "license": "ISC"

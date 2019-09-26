@@ -1,0 +1,9 @@
+{% extends "../partials/_layout.html" %}
+{% block title %}Form page{% endblock %}
+{% block template %}
+{% include "../partials/_header.html" %}
+<main id="maincontent" class="container mx-auto flex-auto px-2 sm:px-4 bg-white">
+    {% block content %} {% endblock %}
+</main>
+{% include "../partials/_footer.html" %}
+{% endblock %}

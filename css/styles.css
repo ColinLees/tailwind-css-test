@@ -16,11 +16,6 @@ a:focus {
     background-image: url("https://picsum.photos/1920/1080");
 }
 
-.email-subscription::placeholder {
-    color: #fff;
-    opacity: 1;
-}
-
 .dashed:before {
     content: '\2014';
     position: absolute;

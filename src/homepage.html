@@ -1,5 +1,7 @@
-{% extends "_layout.html" %}
-{% block content %}
+{% extends "partials/_layout.html" %}
+{% block title %}Homepage{% endblock %}
+{% block template %}
+{% include "partials/_header.html" %}
 <section class="hero-image bg-center mb-4">
     <h1 class="hidden">Stockport council homepage</h1>
     <div class="container mx-auto flex flex-col px-2 py-4 sm:px-0 lg:pt-16">
@@ -101,4 +103,5 @@
         </div>
     </div>
 </main>
+{% include "partials/_footer.html" %}
 {% endblock %}

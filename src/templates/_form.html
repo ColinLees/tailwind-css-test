@@ -1,9 +1,11 @@
 {% extends "../partials/_layout.html" %}
+{% from "../macros/_footer.html" import footer %}
+{% from "../macros/_header.html" import header %}
 {% block title %}Form page{% endblock %}
 {% block template %}
-{% include "../partials/_header.html" %}
-<main id="maincontent" class="container mx-auto flex-auto px-2 sm:px-4 bg-white">
-    {% block content %} {% endblock %}
-</main>
-{% include "../partials/_footer.html" %}
+    {{ header() }}
+    <main id="maincontent" class="container--form">
+        {% block content %} {% endblock %}
+    </main>
+    {{ footer() }}
 {% endblock %}

@@ -55,8 +55,7 @@ module.exports = {
   },
   variants: {},
   plugins: [
-    require('tailwindcss-multi-column')(),
-    require('postcss-nesting'),
-    require('@tailwindcss/custom-forms')
+    require('@tailwindcss/custom-forms'),
+    require('tailwindcss-multi-column')()
   ],
 }

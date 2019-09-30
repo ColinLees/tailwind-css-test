@@ -1,77 +1,73 @@
 {% extends "templates/_form.html" %}
 {% block content %}
-<h1 class="text-4xl text-gray-900 font-bold my-6">Test h1</h1>
+<h1 class="h1">Test h1</h1>
 
-<form class="w-2/3 mb-4">
-    <label class="text-xl text-gray-900 mb-4 block">
+<form class="form">
+    <label class="form__label--textbox">
         Enter your name
-        <input type='text' name='example-text' class="block border-2 border-gray-900 text-lg px-1 py-2 mt-2" />
+        <input type='text' name='example-text' class="form__input--textbox" />
     </label>
 
-    <label class="text-xl text-gray-900 mb-4 block">
+    <label class="form__label--textbox">
         Enter your date of birth
-        <span class="block text-sm text-gray-700">Helper text</span>
-        <input type='text' name='example-dob' class="block border-2 border-gray-900 text-lg px-1 py-2 mt-2" />
+        <span class="form__label--helper">Helper text</span>
+        <input type='text' name='example-dob' class="form__input--textbox" />
     </label>
 
     <fieldset>
-        <legend class="text-xl mb-4">Are you amazing?</legend>
+        <legend class="form__legend">Are you amazing?</legend>
 
         <div>
-            <label class="inline-flex content-center mb-4">
-                <input type='radio' name='areAmazing' value='yes' class="form-radio h-8 w-8 text-gray-900 mr-2" />
-                <span class="text-xl text-gray-900">Yes</span>
+            <label class="form__label--radio">
+                <input type='radio' name='areAmazing' value='yes' class="form__input--radio" />
+                <span>Yes</span>
             </label>
         </div>
 
         <div>
-            <label class="inline-flex content-center mb-4">
-                <input type='radio' name='areAmazing' value='no' class="form-radio h-8 w-8 text-gray-900 mr-2" />
-                <span class="text-xl text-gray-900">No</span>
+            <label class="form__label--radio">
+                <input type='radio' name='areAmazing' value='no' class="form__input--radio" />
+                <span>No</span>
             </label>
         </div>
     </fieldset>
 
     <fieldset>
-        <legend class="text-xl mb-4">What level of amazing do you identify as?</legend>
+        <legend class="form__legend">What level of amazing do you identify as?</legend>
 
         <div>
-            <label class="inline-flex content-center mb-4">
-                <input type='checkbox' name='levelOfAmazing' value='poor'
-                    class="form-checkbox h-8 w-8 text-gray-900 mr-2" />
-                <span class="text-xl text-gray-900">Poor</span>
+            <label class="form__label--checkbox">
+                <input type='checkbox' name='levelOfAmazing' value='poor' class="form__input--checkbox" />
+                <span>Poor</span>
             </label>
         </div>
 
         <div>
-            <label class="inline-flex content-center mb-4">
-                <input type='checkbox' name='levelOfAmazing' value='good'
-                    class="form-checkbox h-8 w-8 text-gray-900 mr-2" />
-                <span class="text-xl text-gray-900">Good</span>
+            <label class="form__label--checkbox">
+                <input type='checkbox' name='levelOfAmazing' value='good' class="form__input--checkbox" />
+                <span>Good</span>
             </label>
         </div>
 
         <div>
-            <label class="inline-flex content-center mb-4">
-                <input type='checkbox' name='levelOfAmazing' value='reallyGood' class="form-checkbox mr-2" />
-                <span class="text-xl text-gray-900">Really good</span>
+            <label class="form__label--checkbox">
+                <input type='checkbox' name='levelOfAmazing' value='reallyGood' class="form__input--checkbox" />
+                <span>Really good</span>
             </label>
         </div>
 
         <div>
-            <label class="inline-flex content-center mb-4">
-                <input type='checkbox' name='levelOfAmazing' value='reallyReallyGood' class="form-checkbox mr-2" />
-                <span class="text-xl text-gray-900">Really really good</span>
+            <label class="form__label--checkbox">
+                <input type='checkbox' name='levelOfAmazing' value='reallyReallyGood' class="form__input--checkbox" />
+                <span>Really really good</span>
             </label>
         </div>
     </fieldset>
 
-    <button type="submit"
-        class="flex xs:w-full xs:justify-center py-3 px-6 rounded items-center font-semibold font-title bg-teal-700 text-white font-bold text-lg hover:bg-teal-800 focus:bg-teal-800">Submit
-        form
-        <svg class="fill-current h-5 w-3 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175">
-            <path
-                d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z" />
+    <button type="submit" class="button__primary--nextstep">
+        Submit form
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175">
+            <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z" />
         </svg>
     </button>
 </form>

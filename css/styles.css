@@ -1,23 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "./base/base.css";
+@import "./base/layout.css";
+@import "./base/typography.css";
 
-*:focus {
-    outline: none!important;
-    box-shadow: 0 0 0 2px #ed8936;
-}
+@import "tailwindcss/components";
+@import "./components/form.css";
+@import "./components/article.css";
 
-button:focus,
-a:focus {
-    @apply rounded-none;
-}
-
-.hero-image {
-    background-image: url("https://picsum.photos/1920/1080");
-}
-
-.dashed:before {
-    content: '\2014';
-    position: absolute;
-    margin-left: -20px;
-}
+@import "tailwindcss/utilities";

@@ -1,7 +1,9 @@
 {% extends "partials/_layout.html" %}
+{% from "macros/_footer.html" import footer %}
+{% from "macros/_header.html" import header %}
 {% block title %}Homepage{% endblock %}
 {% block template %}
-{% include "partials/_header.html" %}
+{{ header() }}
 <section class="hero-image bg-center mb-4">
     <h1 class="hidden">Stockport council homepage</h1>
     <div class="container mx-auto flex flex-col px-2 py-4 sm:px-0 lg:pt-16">
@@ -103,5 +105,5 @@
         </div>
     </div>
 </main>
-{% include "partials/_footer.html" %}
+{{ footer() }}
 {% endblock %}

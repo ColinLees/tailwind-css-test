@@ -1,0 +1,10 @@
+.container {
+    &--form {
+        @extend .container;
+        @apply mx-auto flex-auto bg-white px-2;
+
+        @screen sm {
+            @apply px-4;
+        }
+    }
+}

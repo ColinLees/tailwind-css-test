@@ -1,7 +1,9 @@
 {% extends "partials/_layout.html" %}
+{% from "macros/_footer.html" import footer %}
+{% from "macros/_header.html" import header %}
 {% block title %}Newsroom{% endblock %}
 {% block template %}
-{% include "partials/_header.html" %}
+{{ header() }}
 <main id="maincontent" class="w-7/12 mx-auto px-2 sm:px-0 text-gray-800 mb-4">
     <h1 class="text-4xl text-teal-800 font-bold my-6">News and media</h1>
     <div class="flex justify-between">
@@ -332,5 +334,5 @@
         </div>
     </div>
 </main>
-{% include "partials/_footer.html" %}
+{{ footer() }}
 {% endblock %}

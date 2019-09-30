@@ -1,0 +1,16 @@
+/* Let's put a style on that page! */
+.article__navigation {
+    @apply list-decimal ml-4 mb-8;
+
+    .navigation__item {
+        @apply ml-2;
+
+        &--link {
+            @apply ml-2 underline text-teal-700;
+
+            &:hover {
+                @apply no-underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\code\\personal-projects\\tailwind-css-netcore\\tailwind-css-netcore.csproj": {}
+  },
+  "projects": {
+    "C:\\code\\personal-projects\\tailwind-css-netcore\\tailwind-css-netcore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\personal-projects\\tailwind-css-netcore\\tailwind-css-netcore.csproj",
+        "projectName": "tailwind-css-netcore",
+        "projectPath": "C:\\code\\personal-projects\\tailwind-css-netcore\\tailwind-css-netcore.csproj",
+        "packagesPath": "C:\\Users\\colin.lees\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\personal-projects\\tailwind-css-netcore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\colin.lees\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://scndevtools.stockport.gov.uk:1980/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

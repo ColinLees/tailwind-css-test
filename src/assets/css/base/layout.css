@@ -1,0 +1,14 @@
+.container {
+    &--form {
+        @extend .container;
+        @apply mx-auto flex-auto bg-white px-2;
+
+        @screen sm {
+            @apply px-4;
+        }
+    }
+}
+
+.main__banner {
+    background-image: url("//images.ctfassets.net/ii3xdrqc6nfw/6QCtfTNLpMd3uek5cfZKpQ/64ade4c8d2f16ac2202b603032792bd4/Stock_-_autumn_leaves.jpg");
+}
